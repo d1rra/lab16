@@ -1,0 +1,4 @@
+words = input('Введите ваш шифр: ').split()
+unique_words = set(words)
+print(len(unique_words))
+print(*sorted(unique_words))
