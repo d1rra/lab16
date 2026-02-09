@@ -1,0 +1,9 @@
+allowed = set(input().split())
+incoming = input().split()
+
+for user_id in incoming:
+    if user_id in allowed:
+        print('OK')
+    else:
+        print('Added')
+        allowed.add(user_id)
