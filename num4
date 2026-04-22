@@ -1,0 +1,6 @@
+cru = set(input().split())
+mi6 = set(input().split())
+kgb = set(input().split())
+
+result = (cru & mi6) - kgb
+print(*sorted(result, reverse=True))
