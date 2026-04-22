@@ -1,0 +1,7 @@
+a = set(input().split())
+b = set(input().split())
+
+files = sorted(a and b)
+lost_files = sorted(a - b)
+print("Общие: ", files)
+print("Потерянные файлы: ", lost_files)
